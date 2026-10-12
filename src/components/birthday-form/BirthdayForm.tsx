@@ -8,7 +8,7 @@ import { ThreeCatAlcohol } from "./ThreeCatAlcohol";
 import { saveBirthdayRsvp } from "@/lib/firebase";
 
 const getGoogleCalendarUrl = () => {
-  const title = encodeURIComponent("🐈 Welcome to my birthday 🥳");
+  const title = encodeURIComponent("Welcome to my birthday 🥳");
   const details = encodeURIComponent(
     "¡Estás invitado a mi cumpleaños!\n\nRecuerda venir con regalo 😸 (si no vienes con regalo, pagas peaje de 2 shots 🥃).\n\nAviso importante: No llevar Ron.\n\n📍 Ubicación: Calle De La Arqueología Mz.A - Lt.55, Lima Metropolitana 15057\nhttps://maps.app.goo.gl/QBzSvE2uMT4kwuC19"
   );
@@ -174,7 +174,7 @@ export const BirthdayForm: React.FC = () => {
                 ¡Confirmación Recibida! 🥳
               </h2>
               <p className="text-sm text-gray-600 max-w-xs mx-auto">
-                Tu asistencia ha sido registrada exitosamente. ¡Nos vemos en la party! 🐈
+                Tu asistencia ha sido registrada exitosamente. ¡Nos vemos en la party! 🎉
               </p>
             </div>
 
@@ -220,7 +220,7 @@ export const BirthdayForm: React.FC = () => {
               {/* Título y Descripción Centrada */}
               <div className="text-center pb-1 space-y-2">
                 <h1 className="text-2xl font-bold text-black tracking-tight text-center">
-                  🐈 Welcome to my birthday 🐈
+                  Welcome to my birthday
                 </h1>
                 
                 <div className="text-xs text-gray-700 leading-relaxed font-normal max-w-sm mx-auto">
@@ -469,7 +469,7 @@ export const BirthdayForm: React.FC = () => {
                   <span>Confirmando Asistencia...</span>
                 </>
               ) : (
-                <span>Confirmar Asistencia 🐈</span>
+                <span>Confirmar Asistencia</span>
               )}
             </button>
           </form>

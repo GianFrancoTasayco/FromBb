@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "🐈 Welcome to my birthday 🐈",
+  title: "Welcome to my birthday",
   description: "Confirmación de asistencia al cumpleaños con diseño en blanco, negro y gris.",
 };
 
