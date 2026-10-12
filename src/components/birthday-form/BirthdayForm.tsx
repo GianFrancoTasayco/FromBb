@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
 import { Check, Loader2, RotateCcw, Copy, CheckCircle2, MapPin, CalendarPlus } from "lucide-react";
 import { CountdownTimer } from "./CountdownTimer";
 import { Gift3DCube } from "./Gift3DCube";
@@ -163,21 +162,6 @@ export const BirthdayForm: React.FC = () => {
     <div className="w-full max-w-[480px] mx-auto select-none font-sans p-0 m-0">
       {/* Tarjeta Principal Monocromática */}
       <div className="bg-white rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 overflow-hidden">
-        
-        {/* Encabezado con la foto de los gatos en blanco y negro */}
-        <div className="w-full bg-white border-b border-gray-100 p-3 flex items-center justify-center">
-          <div className="w-full max-w-[420px] rounded-xl overflow-hidden border border-gray-100">
-            <Image
-              src="/cat-banner.png"
-              alt="Cat header banner illustration"
-              width={800}
-              height={200}
-              priority
-              className="w-full h-auto object-cover"
-            />
-          </div>
-        </div>
-
         {/* Contenido del Formulario o Pantalla de Éxito */}
         {submittedReceipt ? (
           <div className="p-7 sm:p-8 text-center space-y-6">
